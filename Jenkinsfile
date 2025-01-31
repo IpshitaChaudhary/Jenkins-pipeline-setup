@@ -31,8 +31,8 @@ pipeline {
                     def scannerHome = tool name: 'SonarScanner', type: 'hudson.plugins.sonar.SonarRunnerInstallation'
                     withSonarQubeEnv('SonarCloud') {
                         sh "${scannerHome}/bin/sonar-scanner \
-                            -Dsonar.projectKey=IpshitaCT_harish-jenkins-task \
-                            -Dsonar.organization=ipshitact \
+                            -Dsonar.projectKey=harishscoreme \
+                            -Dsonar.organization=Harishscoreme \
                             -Dsonar.sources=. \
                             -Dsonar.host.url=https://sonarcloud.io \
                             -Dsonar.login=REDACTED"
