@@ -34,8 +34,7 @@ pipeline {
                             -Dsonar.projectKey=Ipshita023_Harish \
                             -Dsonar.organization=harishscoreme \
                             -Dsonar.sources=. \
-                            -Dsonar.host.url=https://sonarcloud.io \
-                            -Dsonar.login=REDACTED"
+                            -Dsonar.host.url=https://sonarcloud.io"
                     }
                 }
             }
